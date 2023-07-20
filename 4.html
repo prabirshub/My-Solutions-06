@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Landing Page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+      body {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        max-width: 1200px;
+        width: 100%;
+      }
+      nav {
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+      }
+      .logo-section {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .logo-section > img {
+        height: 30px;
+      }
+      .logo-section > p {
+        font-size: 22px;
+        color: #5f6368;
+        font-weight: 400;
+      }
+      .button-section {
+        display: flex;
+        gap: 50px;
+      }
+      .btn-1 {
+        font-size: 15px;
+        border-color: transparent;
+        background-color: transparent;
+        color: #1a73e8;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .btn-2 {
+        font-size: 15px;
+        background-color: transparent;
+        color: #1a73e8;
+        font-weight: 600;
+        padding: 12px 24px;
+        border: 0.5px solid #1f1f1f5e;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .btn-3 {
+        font-size: 15px;
+        background-color: #1a73e8;
+        color: #fff;
+        font-weight: 600;
+        padding: 12px 24px;
+        border-radius: 4px;
+        border-color: transparent;
+        cursor: pointer;
+      }
+      hr {
+        margin-top: 0;
+        border: 0.1px solid #1f1f1f41;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+      .main-section {
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+      }
+      .sub-section1 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+      }
+      .sub-section1 > h2 {
+        font-size: 50px;
+        line-height: 1.2;
+        margin-bottom: 0;
+      }
+      .sub-section1 > p {
+        margin: 10px 0;
+        line-height: 1.7;
+      }
+      .sub-section2 {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+      }
+      .sub-section2 > img {
+        width: 100%;
+      }
+      .home-buttons {
+        display: flex;
+        margin-top: 30px;
+        gap: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo-section">
+          <img
+            src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97"
+            alt="logo"
+          />
+          <p>Gmail</p>
+        </div>
+        <div class="button-section">
+          <button class="btn-1">For Work</button>
+          <button class="btn-2">Sign in</button>
+          <button class="btn-3">Create an account</button>
+        </div>
+      </nav>
+      <hr />
+      <section class="main-section">
+        <div class="sub-section1">
+          <h2>Secure, smart, and easy to use email</h2>
+          <p>
+            Get more done with Gmail. Now integrated with Google Chat, Google
+            Meet, and more, all in one place.
+          </p>
+          <section class="home-buttons">
+            <button class="btn-3">Create an account</button>
+            <button class="btn-1">For Work</button>
+          </section>
+        </div>
+        <div class="sub-section2">
+          <img
+            src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880"
+            alt="hero image"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
